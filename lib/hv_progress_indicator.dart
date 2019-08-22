@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class ProgressIndicator extends StatelessWidget {
+class HVProgressIndicator extends StatelessWidget {
   final double percentage;
   final Color dotColor;
   final Color backgroundColor;
@@ -11,7 +11,7 @@ class ProgressIndicator extends StatelessWidget {
   final bool animate;
   final int animationTime;
 
-  const ProgressIndicator(
+  const HVProgressIndicator(
       {Key key,
         this.percentage = 0,
         this.backgroundColor,
