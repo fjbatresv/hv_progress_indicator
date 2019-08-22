@@ -1,6 +1,6 @@
 name: hv_progress_indicator
 description: Progress indicator for usage on vertical or horizontal. You can set a dot like mark
-version: 1.0.1
+version: 1.0.2
 author: Javier Batres (fjbatresv) <fjbatresv@gmail.com>
 homepage: https://github.com/fjbatresv/hv_progress_indicator
 

@@ -44,6 +44,14 @@ class HVProgressIndicator extends StatelessWidget {
     }
   }
 
+  Alignment _calculateDotAlignment() {
+    if (height > width) {
+      return Alignment(0, 1);
+    } else {
+      return Alignment(-1, 0);
+    }
+  }
+
   double _calculateHeight() {
     if (height > width) {
       return (this.height / 100) * this.percentage;
@@ -92,7 +100,7 @@ class HVProgressIndicator extends StatelessWidget {
           decoration: _getDecoration(0),
         ),
         Stack(
-          alignment: Alignment(0, 1),
+          alignment: _calculateDotAlignment(),
           children: <Widget>[
             AnimatedContainer(
               duration:
