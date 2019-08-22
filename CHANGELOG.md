@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [1.0.01] Initial version
 
-* TODO: Describe initial release.
+This version you can set height and width, you can animate and set a dot wit color for background, progress and dot.
