@@ -30,6 +30,4 @@ HVProgressIndicator(
 );
 ~~~~
 
-![Gif](https://github.com/fjbatresv/hv_progress_indicator/tree/master/lib/animated.gif)
-
-![Static](https://github.com/fjbatresv/hv_progress_indicator/tree/master/lib/screenshot.png)
+![Gif](https://github.com/fjbatresv/hv_progress_indicator/blob/master/resources/animated.gif?raw=true)
